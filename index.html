@@ -1,18 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ya aprobe</title>
-    </head>
-    <body>
-        <h1>Hola Mundo</h1>
-        <h2>este curso es bueno</h2>
-        <h3>soy programador</h3>
-        <h4>buenas notas</h4>
-        <p>paolo es therian</p>
-    </body>
-    <footer>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Hunters | Portal Oficial del Nexo</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button>Enviar</button>
+    <div class="background-overlay"></div>
 
+    <nav class="main-nav">
+        <div class="nav-logo">DH</div>
+        <div class="nav-links">
+            <a href="#roster">Roster</a>
+            <a href="#tlht">TLHT</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <img src="assets/DeathHunters.jpg" class="profile-img"/>
+        <div class="hero-content">
+            
+            <p class="hero-subtitle">Portal Oficial</p>
+            <h1 class="hero-title">Death Hunters</h1>
+            <p class="hero-description">Dominando el Nexo con estrategia y poder. Preparados para el torneo TLHT.</p>
+            <button class="btn-nexus glow-effect">Conectar con el Nexo</button>
+        </div>
+    </header>
+
+    <main class="main-container">
+        
+        <section id="roster" class="roster-section">
+            <h2 class="section-title">Nuestros Héroes</h2>
+            
+            <div class="death-hunters-grid">
+                
+                <div class="player-card captain-card anim-delay-1">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="captain-badge">Capitán / Flex</span>
+                            <div class="player-avatar placeholder-avatar">FD</div>
+                            <h3 class="player-name">Freddy Delgado</h3>
+                            <div class="player-meta">Asesino Primal</div>
+                        </div>
+                        <div class="card-back">
+                            <p>"Liderando las rotaciones y asegurando los campamentos. La victoria se forja en el mapa."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card anim-delay-2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="player-avatar placeholder-avatar">J2</div>
+                            <h3 class="player-name">Jugador 2</h3>
+                            <div class="player-meta">Línea Frontal / Bruiser</div>
+                        </div>
+                        <div class="card-back">
+                            <p>"La vanguardia inquebrantable. Iniciamos las peleas cuando el enemigo menos lo espera."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card anim-delay-3">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="player-avatar placeholder-avatar">J3</div>
+                            <h3 class="player-name">Jugador 3</h3>
+                            <div class="player-meta">Soporte Vital / Utilidad</div>
+                        </div>
+                        <div class="card-back">
+                            <p>"Manteniendo al equipo con vida. La victoria llega cuando nadie cae en batalla."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card anim-delay-4">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="player-avatar placeholder-avatar">J4</div>
+                            <h3 class="player-name">Jugador 4</h3>
+                            <div class="player-meta">Asesino de Rango</div>
+                        </div>
+                        <div class="card-back">
+                            <p>"Daño sostenido y objetivos prioritarios. Nuestra precisión es mortal."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card anim-delay-5">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="player-avatar placeholder-avatar">J5</div>
+                            <h3 class="player-name">Jugador 5</h3>
+                            <div class="player-meta">Flex / Estratega</div>
+                        </div>
+                        <div class="card-back">
+                            <p>"Adicional al daño. Nos adaptamos a cualquier composición enemiga."</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tlht" class="tlht-section">
+            <div class="tlht-container">
+                <div class="tlht-header">
+                    <h2 class="section-title text-gold">Torneo TLHT</h2>
+                    <p class="section-subtitle">Fase de Grupos - Temporada Actual</p>
+                </div>
+                
+                <div class="match-history-modern">
+                    <div class="match-entry match-victory anim-on-scroll">
+                        <div class="match-status">VICTORIA</div>
+                        <div class="match-details">
+                            <span class="match-map">Cuenca Maldita</span>
+                            <span class="match-info">Fase de Grupos vs Stormbringers</span>
+                        </div>
+                        <div class="match-score">2 - 0</div>
+                    </div>
+                    
+                    <div class="match-entry match-victory anim-on-scroll">
+                        <div class="match-status">VICTORIA</div>
+                        <div class="match-details">
+                            <span class="match-map">Sagrarios Infernales</span>
+                            <span class="match-info">Fase de Grupos vs Void Walkers</span>
+                        </div>
+                        <div class="match-score">2 - 1</div>
+                    </div>
+                    
+                    <div class="match-entry match-defeat anim-on-scroll">
+                        <div class="match-status">DERROTA</div>
+                        <div class="match-details">
+                            <span class="match-map">Templo Celeste</span>
+                            <span class="match-info">Fase de Grupos vs Nexus Kings</span>
+                        </div>
+                        <div class="match-score">1 - 2</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto" class="main-footer">
+        <p>&copy; 2024 Death Hunters. Portal Oficial.</p>
+        <p class="p-small">Creado en el Nexo.</p>
     </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
